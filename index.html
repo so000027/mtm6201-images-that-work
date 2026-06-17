@@ -179,6 +179,11 @@
   ============================================================ -->
   <section class="landscape-banner">
     <!-- Task 7: Add your <picture> element here, before landscape-banner__content -->
+    <picture>
+      <source media="(max-width: 768px)" srcset="images/banner-portrait.webp">
+      <source media="(min-width: 769px)" srcset="images/banner-wide.webp">
+      <img src="images/banner-wide.webp" alt="A misty forest trail at dawn">
+    </picture>
     <div class="landscape-banner__content">
       <h2>Every trail<br>has a story.</h2>
       <p>Ridgeline gear is built for the ones worth telling.</p>
